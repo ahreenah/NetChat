@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="" method="POST">
+<input type="text" name="message">
+<input type="submit">
+</form>
+{% for i in chatbody %}
+<A HREF="YANDEX.RU">{{ i[0] }}</A>:{{i[1]}}<br>
+{% endfor %}
+{% endblock %}

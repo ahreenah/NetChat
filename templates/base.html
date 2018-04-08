@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title> {{ title }} </title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    NetChat||
+{% if logininfo==None %}
+<A HREF="/login">login</A>
+{% else %}
+{{ logininfo }}
+{% endif %}	
+
+    <br>
+    <A HREF="/"> main page </A>||<A HREF="/about">about NetChat</A></br>
+    <br>
+    {% block content %}
+    {% endblock %}
+    <br><br>
+    Copyright Medvosa 2018
+  </body>
+</html>

@@ -1,0 +1,17 @@
+body{
+background-color:black;
+color:white;
+};
+.centerform{
+background-color: grey;
+position: relative;
+left:40%;
+top:50%;
+width:50%;
+}
+.submt{
+background-color: light-green;
+}
+.textfield{
+
+};
